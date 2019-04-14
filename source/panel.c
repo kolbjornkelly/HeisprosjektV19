@@ -4,7 +4,7 @@
 #include "elev.h"
 
 
-static int stop_button_state;
+static int m_stop_button_state;
 
 
 int panel_button_pressed() {
@@ -28,7 +28,7 @@ int panel_button_pressed() {
 int panel_stop_button_pressed() {
 
 	if (elev_get_stop_signal()) {
-		stop_button_state = 1;
+		m_stop_button_state = 1;
 		return 1;
 	}
 	return 0;
@@ -37,8 +37,8 @@ int panel_stop_button_pressed() {
 
 int panel_stop_button_released() {
 
-	if ((stop_button_state == 1) && (elev_get_stop_signal() == 0)) {
-		stop_button_state = 0;
+	if ((m_stop_button_state == 1) && (elev_get_stop_signal() == 0)) {
+		m_stop_button_state = 0;
 		return 1;
 	}
 	return 0;
