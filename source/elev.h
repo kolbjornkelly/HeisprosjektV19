@@ -1,3 +1,10 @@
+/**
+ * @file
+ * @brief Elevator get- and set functions
+ * using the I/O-module
+ */
+
+
 // Wrapper for libComedi Elevator control.
 // These functions provides an interface to the elevators in the real time lab
 //

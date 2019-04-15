@@ -1,3 +1,10 @@
+/**
+ * @file
+ * @brief Main file of the elevator
+ * controll system
+ */
+
+
 #include <stdio.h>
 
 

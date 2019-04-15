@@ -1,3 +1,12 @@
+/**
+ * @file
+ * @brief Implementation of the
+ * Finite State Machine
+ */
+
+
+
+
 #include <stdio.h>
 
 #include "fsm.h"
