@@ -89,7 +89,6 @@ void fsm_stop_button_released() {
 			break;
 
 		case STOP_BUTTON_PRESSED_BETWEEN_FLOORS:
-			panel_clear_stop_button_lamp();
 			STATE = STOP_BETWEEN_FLOORS;
 			break;
 
