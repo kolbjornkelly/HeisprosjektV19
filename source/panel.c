@@ -23,7 +23,7 @@ int panel_button_pressed() {
 
 			if (!((floor == 0 && button == BUTTON_CALL_DOWN) || (floor == N_FLOORS -1 && button == BUTTON_CALL_UP))) {
 				
-				if (elev_get_button_signal(button, floor) && !(lamp_matrix[floor][button])) {
+				if (elev_get_button_signal(button, floor) && !(lamp_matrix[floor][button]) && (elev_get_floor_sensor_signal() != floor)) {
 					return 1;
 				}
 			}

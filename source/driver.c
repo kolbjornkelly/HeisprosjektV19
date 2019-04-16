@@ -14,7 +14,7 @@
 
 
 /**
- * @brief Local function used to look for orders
+ * @b Local function used to look for orders
  * past the @p m_current_floor.
  * Only looks in @p m_direction.
  * @param in_floor The floor to start looking from.
@@ -52,6 +52,7 @@ int driver_queue_not_empty() {
 int driver_floor_passed() {
 
 	if (elev_get_floor_sensor_signal() != -1) {
+
 		m_current_floor = elev_get_floor_sensor_signal();
 
 		if (m_direction == 1) {
