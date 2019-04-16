@@ -12,6 +12,13 @@
 
 #include <stdio.h>
 
+
+/**
+ * @brief Local function used to look for orders
+ * past the @p m_current_floor.
+ * Only looks in @p m_direction.
+ * @param in_floor The floor to start looking from.
+ */
 int driver_find_orders_past_floor(int in_floor);
 
 static int m_order_matrix[N_FLOORS][N_BUTTONS];

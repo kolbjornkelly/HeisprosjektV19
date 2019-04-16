@@ -1,3 +1,11 @@
+/**
+ * @file
+ * @brief Implementation of the panel module
+ *
+ */
+
+
+
 #include <stdio.h>
 
 #include "panel.h"

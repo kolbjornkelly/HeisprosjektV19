@@ -1,7 +1,7 @@
 /**
  * @file
  * @brief A module responsible for the panel.
- * This includes polling buttons pushes, setting
+ * This includes polling button pushes, setting
  * and clearing button and floor lights
  */
 

@@ -1,3 +1,9 @@
+/**
+ * @file
+ * @brief Implementation of the timer module
+ *
+ */
+
 
 #include "timer.h"
 

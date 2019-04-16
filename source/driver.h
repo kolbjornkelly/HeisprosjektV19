@@ -1,7 +1,6 @@
 /**
  * @file
  * @brief A module responsible for movement and queue handling
- *
  */
 
 
