@@ -130,8 +130,8 @@ void fsm_pass_ordered_floor() {
 			driver_queue_clear_order();
 			panel_clear_order_lamps();
 			driver_stop_motor();
-			timer_start();
 			panel_set_door_light();
+			timer_start();
 			STATE = DOORS_OPEN;
 			break;
 
