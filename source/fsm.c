@@ -152,8 +152,8 @@ void fsm_timer_is_out() {
 	switch (STATE) {
 
 		case DOORS_OPEN:
-			panel_clear_door_light();
 			timer_stop();
+			panel_clear_door_light();
 			STATE = STOP_AT_FLOOR;
 			break;
 
